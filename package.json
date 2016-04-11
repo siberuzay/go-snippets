@@ -8,7 +8,11 @@
   "activationCommands": {
     "atom-workspace": "go-snippets:toggle"
   },
-  "repository": "https://github.com/siberuzay/go-snippets",
+  "repository": {
+      "type":"git",
+      "url":"https://github.com/siberuzay/go-snippets.git"
+
+    },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
