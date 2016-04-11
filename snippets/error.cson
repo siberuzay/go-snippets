@@ -1,0 +1,8 @@
+'.source.go':
+    'go error return':
+        'prefix':'g-err-return'
+        'body':"""
+          if err != nil {
+            return $1 err
+          }
+        """

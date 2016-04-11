@@ -1,0 +1,7 @@
+'.source.go':
+    'go assert noerror':
+        'prefix':'g-assert noerror'
+        'body':'assert.NoError(t, err)'
+    'go assert notnil':
+                'prefix':'g-assert-notnil'
+                'body':'assert.NotNil(t,$1)'

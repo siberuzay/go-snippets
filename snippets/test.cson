@@ -1,0 +1,18 @@
+'.source.go':
+    'go test cases':
+        'prefix':"g-test-cases"
+        'body':"""
+testCases := []struct {
+    given string
+    expected string
+
+}{
+	{
+    given: "",
+    expected: "",
+	},
+}
+for _, tc := range testCases {
+
+}
+        """

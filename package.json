@@ -1,0 +1,18 @@
+{
+  "name": "go-snippets",
+  "main": "./lib/go-snippets",
+  "version": "0.0.0",
+  "description": "Go Language Snippets for Atom aditor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "go-snippets:toggle"
+  },
+  "repository": "https://github.com/siberuzay/go-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
