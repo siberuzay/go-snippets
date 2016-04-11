@@ -1,7 +1,7 @@
 {
   "name": "go-snippets",
   "main": "./lib/go-snippets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Go Language Snippets for Atom editor",
   "keywords": [],
   "activationCommands": {
