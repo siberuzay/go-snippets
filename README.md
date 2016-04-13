@@ -4,7 +4,7 @@ Go Language Snippets for Atom
 
 ## Usage ##
 
-All snippets starts with `g-` and
+All snippets start with `g-` prefix
 
 ### Error Snippets
 
@@ -20,7 +20,7 @@ if err != nil {
 
 `g-assert-noerror`
 ```go
-assert.NoError(t, err)'
+assert.NoError(t, err)
 ```
 `g-assert-notnil`
 
