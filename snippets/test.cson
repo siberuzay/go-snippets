@@ -2,17 +2,24 @@
     'go test cases':
         'prefix':"g-test-cases"
         'body':"""
-testCases := []struct {
-    given string
-    expected string
 
-}{
-	{
-    given: "",
-    expected: "",
-	},
-}
-for _, tc := range testCases {
+// Test$1 $2
+func Test$1(t *testing.T) {
+
+	testCases := []struct {
+		given    string
+		expected string
+	}{
+		{
+			given:    "",
+			expected: "",
+		},
+	}
+
+	for _, tc := range testCases {
+
+	}
 
 }
+
         """

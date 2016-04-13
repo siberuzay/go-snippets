@@ -1,0 +1,4 @@
+'.source.go':
+    'go import bolddb':
+        'prefix':'g-im-boltdb'
+        'body':'${1:import} "github.com/boltdb/bolt"'
