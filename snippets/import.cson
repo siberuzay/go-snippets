@@ -2,3 +2,7 @@
     'go import bolddb':
         'prefix':'g-im-boltdb'
         'body':'${1:import} "github.com/boltdb/bolt"'
+
+    'go import assert':
+        'prefix':'g-im-assert'
+        'body':'${1:import} "github.com/stretchr/testify/assert"'
